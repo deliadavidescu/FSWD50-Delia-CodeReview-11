@@ -1,0 +1,257 @@
+* {
+	font-size: 14px;
+}
+
+#nav-right i {
+	color: gray;
+	font-size: 20px;
+}
+/* HEADER */
+
+.nav-link {
+	color: black;
+}
+
+#navbar, .section1 {
+	background-color: #EFF0F0;
+}
+
+#hero {
+  background-image: url('https://images.pexels.com/photos/458555/pexels-photo-458555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 40vw;
+}
+
+#header {
+	margin: 0 auto;
+	padding-top: 11vw;
+	text-align: center;
+}
+
+#header h1{
+	color: white;
+	font-size: 7vw;
+}
+
+#header h4{
+	color: white;
+	font-size: 2vw;
+}
+
+#navbar a {
+	color:gray;
+}
+
+#navbar a:hover {
+    color: black;
+    text-decoration: underline;
+
+}
+
+
+#footer {
+	background-color: #696969;
+	color: white;
+}
+
+
+.btn a{
+  color: white;
+}
+
+
+.photo {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.photo img {
+  width: 100%;
+  height: 10vw;
+}
+
+.photo .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.photo .btn:hover {
+  background-color: black;
+}
+
+.card-img-top {
+	height: 15vw;
+}
+
+.card {
+	width: 20vw;
+	margin: 0 auto;
+}
+
+#social-links, .btn {
+	background-color: #62BDC5;
+}
+
+#social-links i{
+	color: white;
+}
+#images {
+	margin: 0!important;
+	padding: 0!important;
+}
+#images img {
+	width: 100%;
+	height: 15vw;
+}
+
+.btn {
+	color: white;
+}
+
+.overlay {
+	position: relative;
+  width: 50%;
+}
+
+.images img {
+	opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay:hover img {
+  opacity: 0.6;
+}
+
+.overlay:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #62BDC5;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  border-radius: 10px;
+}
+
+.text i {
+	color: white;
+	font-size: 120%;
+	margin-right: 6px;
+}
+
+.text i:hover {
+	color: red;
+	cursor: pointer;
+}
+
+/*login and register*/
+
+
+.login-form {
+		width: 385px;
+		margin: 30px auto;
+	}
+    .login-form form {        
+    	margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+    .form-control, .login-btn {
+        min-height: 38px;
+        border-radius: 2px;
+    }
+    .input-group-addon .fab {
+        font-size: 18px;
+        line-height: 40px
+    }
+    .login-btn {
+        font-size: 15px;
+        font-weight: bold;
+    }
+	.social-btn .btn {
+		border: none;
+        margin: 10px 3px 0;
+        opacity: 1;
+	}
+    .social-btn .btn:hover {
+        opacity: 0.9;
+    }
+	.social-btn .btn-primary {
+        background: #507cc0;
+    }
+	.social-btn .btn-info {
+		background: #64ccf1;
+	}
+	.social-btn .btn-danger {
+		background: #df4930;
+	}
+    .or-seperator {
+        margin-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+    }
+    .or-seperator i {
+        padding: 0 10px;
+        background: #f7f7f7;
+        position: relative;
+        top: -11px;
+        z-index: 1;
+    }  
+
+/* Users */
+.manageUser {
+            width: 50%;
+            margin: auto;
+        }
+ 
+        table {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+#user-form{
+  width: 60%;
+  margin:0 auto;
+}
+h3 {
+  text-align: : center;
+}
+
+
+textarea{
+  width: 100%!important;
+}
