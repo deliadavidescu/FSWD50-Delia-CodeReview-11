@@ -28,7 +28,7 @@ include "connection.php";
     <?php if (isset($_SESSION['admin'])!=""){  ?>
     <a href="./actions/create_place.php"><button class="btn my-3" type="button">Add Location</button></a>
 <?php } ?>
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>Name</th>

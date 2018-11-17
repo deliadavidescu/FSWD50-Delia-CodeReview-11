@@ -30,7 +30,7 @@ if( !isset($_SESSION['admin'])) {
  
 <div class="manageUser">
     <a href="./actions/create.php"><button class="btn my-3" type="button">Add User</button></a>
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>Username</th>

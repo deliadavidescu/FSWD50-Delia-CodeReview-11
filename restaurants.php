@@ -29,7 +29,7 @@ include "./connection.php" ;
     <?php if (isset($_SESSION['admin'])!=""){  ?>
     <a href="./actions/create_rest.php"><button class="btn my-3" type="button">Add Restaurant</button></a>
     <?php } ?>
-    <table class="table">
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>Name</th>

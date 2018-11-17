@@ -21,16 +21,18 @@ $userRow=mysqli_fetch_array($res, MYSQLI_ASSOC);
       <li class="nav-item active">
         <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
       </li>
-    
-      <li class="nav-item">
-        <a class="nav-link" href="locations.php">Attractions</a>
-      </li>
      
       <li class="nav-item">
-        <a class="nav-link" href="restaurants.php">Restaurants</a>
+        <a class="nav-link" href="restaurant_display.php">Restaurants</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="locations.php">Attractions List</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="events.php">Events</a>
+        <a class="nav-link" href="restaurants.php">Restaurants List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="events.php">Events List</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="map.php">Map</a>
